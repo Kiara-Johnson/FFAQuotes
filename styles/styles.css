@@ -1,0 +1,79 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background-color: rgb(10, 49, 97);
+
+}
+
+header {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+}
+
+header > h1 {
+    font-size: 100px;
+    font-family: Helvetica, sans-serif;
+    color: rgb(252, 221, 45);
+    margin: 20px;
+}
+
+#emblem {
+    height: 200px;
+}
+
+#info {
+    color: rgb(253, 235, 125);
+    flex-direction: column;
+}
+
+#info > h2 {
+    font-size: 60px;
+}
+
+#info > p {
+    font-size: 40px;
+}
+
+#quotes{
+    flex-direction: column;
+    font-size: 40px;
+}
+
+#quote {
+    color: rgb(253, 235, 125)
+}
+
+#quote-btn {
+    color: blue;
+    background-color: rgb(253, 235,125);
+    border-radius: 100px;
+    border-color: navy;
+    font-size: 30px;
+    margin: 30px;
+}
+.flex-ctr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgs {
+    flex-wrap: wrap;
+    grid-gap: 20px;
+
+}
+#pig {
+    height: 1000px;
+     
+}
+
+#lamb {
+    height: 1000px;
+}
+
+#bunny {
+    width: 1000px
+}
