@@ -15,7 +15,7 @@ header {
 
 header > h1 {
     font-size: 100px;
-    font-family: Helvetica, sans-serif;
+    font-family: sans-serif;
     color: rgb(252, 221, 45);
     margin: 20px;
 }
@@ -48,7 +48,7 @@ header > h1 {
 
 #quote-btn {
     color: blue;
-    background-color: rgb(253, 235,125);
+    background-color: rgb(253, 235, 125);
     border-radius: 100px;
     border-color: navy;
     font-size: 30px;
@@ -60,11 +60,18 @@ header > h1 {
     align-items: center;
 }
 
+#photos {
+    font-size: 60px;
+    color: rgb(252, 221, 45);
+    margin: 10px;
+}
+
 #imgs {
     flex-wrap: wrap;
     grid-gap: 20px;
 
 }
+
 #pig {
     height: 500px;
      
