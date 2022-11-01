@@ -37,6 +37,26 @@ header > h1 {
     font-size: 40px;
 }
 
+#politics:link, #politics:visited {
+    color: rgb(209, 247, 40);
+    text-decoration: none;
+}
+
+#politics:hover {
+    color: rgb(217, 248, 43);
+    text-decoration: underline;
+}
+
+#celebs:link, #celebs:visited {
+    color: rgb(209, 247, 40);
+    text-decoration: none;
+}
+
+#celebs:hover {
+    color: rgb(217, 248, 43);
+    text-decoration: underline;
+}
+
 #quotes{
     flex-direction: column;
     font-size: 40px;
@@ -67,6 +87,10 @@ header > h1 {
 }
 
 #imgs {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    justify-items: center;   
     flex-wrap: wrap;
     grid-gap: 20px;
 
