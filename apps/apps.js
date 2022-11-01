@@ -4,6 +4,7 @@ let quotes = [
     `The bunny took my backpack!`,
     `We're one big crazy family.`,
     `It's a fairy pig!`,
+    `Blue Jackets, Gold Standards`,
     `Don't mind me, I'm just walking the lamb.`
   ];
   

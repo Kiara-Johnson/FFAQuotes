@@ -66,14 +66,23 @@ header > h1 {
 
 }
 #pig {
-    height: 1000px;
+    height: 500px;
      
 }
 
 #lamb {
-    height: 1000px;
+    height: 500px;
 }
 
 #bunny {
-    width: 1000px
+    width: 500px;
+    align-self: flex-start;
+}
+
+#bear {
+    height: 500px;
+}
+
+#soc {
+    height: 500px;
 }
